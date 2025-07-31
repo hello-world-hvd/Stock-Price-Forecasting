@@ -1,0 +1,14 @@
+stock_price_forecasting/
+├── data/
+│   └── raw_data.csv
+├── notebooks/
+│   └── EDA_and_preprocessing.ipynb
+│   └── lstm_model.ipynb
+├── src/
+│   ├── preprocessing.py
+│   ├── model.py
+│   └── utils.py
+├── results/
+│   └── predictions.png
+├── README.md
+└── requirements.txt

@@ -1,0 +1,38 @@
+# Bỏ qua môi trường ảo
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Bỏ qua file Python biên dịch
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bỏ qua log, dữ liệu tạm, checkpoint
+*.log
+*.out
+*.tmp
+*.bak
+*.swp
+.DS_Store
+
+# Jupyter Notebook checkpoint
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Dữ liệu đầu ra nếu có
+outputs/
+results/
+
+# File model lưu tạm (nếu có)
+*.pt
+*.pth
+
+# File hệ thống
+Thumbs.db
+ehthumbs.db
